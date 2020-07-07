@@ -1,0 +1,36 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Neighborhood Watch
+      <ion-icon size="large"name="eye-outline"></ion-icon>
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Home</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+<ion-grid>
+  <ion-row>
+    <ion-col>
+      <ion-button shape="round"color="success"expand="block"size="large" fill="outline">Search Reports</ion-button>
+      <ion-button shape="round"color="success"expand="block"size="large" fill="outline">Report a Crime</ion-button>
+      <ion-button shape="round"color="success"expand="block"size="large" fill="outline">Near Me</ion-button>
+      <ion-button shape="round"color="success"expand="block"size="large" fill="outline">My Crime Uploads</ion-button>
+    </ion-col>
+  </ion-row>
+</ion-grid>
+
+
+<ion-content>
+<ion-fab vertical="top" horizontal="left" slot="fixed">
+
+    <img src="../assets/img/crime-scene.jpg">
+
+  </ion-fab>
+</ion-content>
+
